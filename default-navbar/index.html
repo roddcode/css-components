@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card CTA with Icons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2792caa0ef.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div
+        class="dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+      ></div>
+      <nav class="navbar">
+        <div class="navbar__content">
+          <div class="navbar__left">
+            <button class="icon"><i class="fa-solid fa-bars"></i></button>
+            <a href="#">Roddcode<span class="dot">.</span></a>
+            <form action="GET">
+              <label for="search" class="sr-only">Search</label>
+              <div class="search-container">
+                <div class="icon search-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input
+                  type="text"
+                  id="search"
+                  name="search"
+                  placeholder="Search"
+                />
+              </div>
+            </form>
+          </div>
+
+          <div class="navbar__right">
+            <button class="btn">
+              <i class="fa-solid fa-plus"></i> New Widget
+            </button>
+            <button class="icon responsive-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="icon toggle-dropdown">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <div class="dropdown">
+              <div class="dropdown__header">Notifications</div>
+              <div>
+                <a href="#" class="">
+                  <div class="">
+                    <img
+                      class="avatar"
+                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                      alt="Bonnie Green avatar"
+                    />
+                  </div>
+                  <div class="">
+                    <div>
+                      <span class="strong">Bonnie Green</span>: "Hey, what's up?
+                      All set for the presentation?"
+                    </div>
+                    <div class="timestamp">a few moments ago</div>
+                  </div>
+                </a>
+                <a href="#" class="">
+                  <div class="">
+                    <img
+                      class="avatar"
+                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                      alt="Bonnie Green avatar"
+                    />
+                  </div>
+                  <div class="">
+                    <div>
+                      <span class="strong">Bonnie Green</span>: "Hey, what's up?
+                      All set for the presentation?"
+                    </div>
+                    <div class="timestamp">a few moments ago</div>
+                  </div>
+                </a>
+                <a href="#" class="">
+                  <div class="">
+                    <img
+                      class="avatar"
+                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                      alt="Bonnie Green avatar"
+                    />
+                  </div>
+                  <div class="">
+                    <div>
+                      <span class="strong">Bonnie Green</span>: "Hey, what's up?
+                      All set for the presentation?"
+                    </div>
+                    <div class="timestamp">a few moments ago</div>
+                  </div>
+                </a>
+              </div>
+              <div class="dropdown__footer">
+                <i class="fa-solid fa-eye"></i> View all
+              </div>
+            </div>
+
+            <button class="icon toggle-dropdown">
+              <i class="fa-solid fa-folder"></i>
+            </button>
+            <div class="dropdown">
+              <div class="dropdown__header">Apps</div>
+              <div class="dropdown__content">
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+                <div class="dropdown__item">
+                  <div><i class="fa-solid fa-circle-exclamation"></i></div>
+                  <span>Example</span>
+                </div>
+              </div>
+            </div>
+            <button
+              class="icon toggle-dropdown"
+              style="border-radius: 100%; padding: 0.5rem"
+            >
+              <img src="https://unavatar.io/roddcode" alt="" class="avatar" />
+            </button>
+            <div class="dropdown">
+              <div class="profile__header">
+                <span class="strong">Alejandro Alvarado</span>
+                <span>devale.alvarado@gmail.com</span>
+              </div>
+              <ul>
+                <li><a href="#">My profile</a></li>
+                <li><a href="#">Account settings</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">My likes</a></li>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Pro version</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
