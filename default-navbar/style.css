@@ -25,6 +25,19 @@ body {
   font-family: 'Inter', 'sans-serif';
 }
 
+/* Accesibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 button {
   background-color: transparent;
   border: none;
@@ -36,7 +49,7 @@ a {
 }
 
 ::placeholder {
-  color: var(--text-secondary); /* Cambia este valor al color que desees */
+  color: var(--text-secondary);
 }
 
 .dropdown {
@@ -136,19 +149,6 @@ li {
   list-style: none;
 }
 
-
-/* Accesibility */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
 
 .avatar {
   border-radius: 50%;
